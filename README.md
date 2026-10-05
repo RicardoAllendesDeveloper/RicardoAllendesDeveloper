@@ -2,6 +2,8 @@
 
 **Developer — TypeScript · Supabase · Postgres · RLS**
 
+[ricardo.allendes.dev@gmail.com](mailto:ricardo.allendes.dev@gmail.com) · Valparaíso, Chile
+
 Construyo sistemas donde **la base de datos es la parte difícil**, no la capa que se esconde debajo
 de un formulario. Me interesa el momento en que una regla de negocio tiene que vivir en el motor
 de datos para que sea imposible de saltarse, no solo en la interfaz.
@@ -62,6 +64,10 @@ seguridad importen de verdad, o como **freelance** en proyectos donde el reto no
 pantallas.
 
 C#/Godot y Electron son mi segundo eje, no el principal.
+
+## Contacto
+
+**ricardo.allendes.dev@gmail.com** — respondo en español
 
 ---
 
