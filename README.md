@@ -2,7 +2,7 @@
 
 **Developer — TypeScript · Supabase · Postgres · RLS**
 
-[ricardo.allendes.dev@gmail.com](mailto:ricardo.allendes.dev@gmail.com) · Valparaíso, Chile
+[ricardo.allendes.dev@gmail.com](mailto:ricardo.allendes.dev@gmail.com) · Santiago, Chile (La Florida)
 
 Construyo sistemas donde **la base de datos es la parte difícil**, no la capa que se esconde debajo
 de un formulario. Me interesa el momento en que una regla de negocio tiene que vivir en el motor
