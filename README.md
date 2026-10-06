@@ -1,15 +1,32 @@
 # Ricardo Allendes Osorio
 
-**Developer — TypeScript · Supabase · Postgres · RLS**
+**Desarrollador full-stack — TypeScript · Supabase · Postgres · RLS**
 
-[ricardo.allendes.dev@gmail.com](mailto:ricardo.allendes.dev@gmail.com) · Santiago, Chile (La Florida)
+ricardo.allendes.dev@gmail.com · Santiago, Chile (La Florida) · Trabajo remoto
 
-Construyo sistemas donde **la base de datos es la parte difícil**, no la capa que se esconde debajo
-de un formulario. Me interesa el momento en que una regla de negocio tiene que vivir en el motor
-de datos para que sea imposible de saltarse, no solo en la interfaz.
+> **In English:** Full-stack developer (TypeScript · Supabase · Postgres · RLS). I harden Postgres
+> databases: RLS policies, reproducible migrations and SQL test suites that run against the real
+> database. AI-assisted delivery, human review. Available for remote work.
 
-Especialidad: **aplicaciones multi-rol sobre Postgres con Row Level Security**, desarrolladas con
-React + TypeScript.
+**Endurezco bases de datos Postgres.** Políticas RLS que no se pueden saltar, migraciones
+reproducibles y suites de pruebas que corren contra la base real, no contra mocks.
+
+Trabajo con agentes de IA, así que entrego rápido. El criterio está en revisar lo que producen, y
+ahí es donde aparecen las reglas que aguantan: un trigger que escribe en otra tabla, una política
+que decide filas, una migración que se puede volver a aplicar.
+
+---
+
+## Lo que hago
+
+**Auditoría de seguridad en Supabase / Postgres.** Reviso tus políticas RLS, tus funciones RPC y tus
+roles, y entrego un informe con lo que falta, la matriz de permisos y el SQL para cerrarlo.
+
+**Suites de pruebas sobre la base de datos real.** Cada caso corre dentro de una transacción con
+`ROLLBACK`: no ensucian datos y no hay mocks que escondan el problema.
+
+**Entrega de features por encargo.** Frontend React/TypeScript con backend Supabase, o escritorio
+con Electron.
 
 ---
 
@@ -51,25 +68,24 @@ Lo que más me costó, y lo que más enseñó:
 | **Calc_IMC_Personal** | Calculadora de IMC e índice de obesidad en HTML/CSS. |
 | **Juegos en Godot (C#/.NET)** | *Gray Cats* y *Suruvanus*: ARPG 3D, multijugador en LAN, bots con autoridad de servidor. |
 
-También trabajo en **TramaBPM** y **NeoBarber** como colaborador: sistemas en producción, y en
-NeoBarber hice el QA del módulo de agenda (62/62 tests, incluida una condición de carrera
-verificada en navegador).
+### Experiencia en producción
+
+**TramaBPM** — desarrollo por módulos en una plataforma BPM en producción (Next.js, Resend). Cada
+módulo se entrega con su migración SQL, sus RPC y sus pruebas. Construí el motor de emails completo
+(envío con opt-out, trazabilidad de envíos y clics, plantillas, segmentación por artista, digest
+automático) y módulos de visualización con 31 pruebas nuevas. Flujo de trabajo: rama propia y PR a
+`main` con revisión.
+
+**NeoBarber** — QA del módulo de agenda: **62/62 tests**, incluida una condición de carrera
+verificada en navegador sobre la aplicación en producción.
 
 ---
-
-## Lo que busco
-
-Trabajo como **developer junior→pleno**, idealmente en un equipo donde la base de datos y la
-seguridad importen de verdad, o como **freelance** en proyectos donde el reto no sea solo pintar
-pantallas.
-
-C#/Godot y Electron son mi segundo eje, no el principal.
 
 ## Contacto
 
-**ricardo.allendes.dev@gmail.com** — respondo en español
+**ricardo.allendes.dev@gmail.com** — escribo en español e inglés
 
 ---
 
-*Los repositorios de trabajos de práctica están archivados: eran aprendizaje, no trabajo real.
-Este perfil muestra lo que construí.*
+*Los repositorios de trabajos de práctica están archivados a propósito: este perfil muestra lo que
+construí, no lo que estudié.*
